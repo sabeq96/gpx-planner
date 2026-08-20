@@ -1,0 +1,39 @@
+{
+  "name": "gpx-planner",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/build-trips-manifest.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/build-trips-manifest.mjs",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@we-gold/gpxjs": "^1.2.0",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router": "^8.3.0",
+    "recharts": "^3.10.1",
+    "theme-change": "^3.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "daisyui": "^5.7.19",
+    "jsdom": "^30.0.1",
+    "oxlint": "^1.75.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0",
+    "vitest": "^4.1.11"
+  }
+}
