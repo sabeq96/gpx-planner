@@ -1,0 +1,18 @@
+{
+  "title": "Nowa Huta - Jubilat",
+  "date": "2026-08-21",
+  "distanceKm": 16.463598072617977,
+  "elevGainM": 70.7197706643492,
+  "pins": [
+    {
+      "id": "cae0a758-ebae-4af0-83ad-8fa475246331",
+      "lat": 50.06253879203445,
+      "lon": 20.013999938964844,
+      "title": "Start",
+      "note": "This is the start",
+      "createdAt": "2026-08-21T06:57:51.782Z"
+    }
+  ],
+  "createdAt": "2026-08-21T06:56:52.340Z",
+  "updatedAt": "2026-08-21T06:58:09.799Z"
+}
